@@ -24,7 +24,7 @@ jobs:
 
     - name: Run unit tests
       run: |
-        pytest
+         PYTHONPATH=. pytest
 
     - name: Run linting
       run: |
